@@ -35,11 +35,12 @@ const ServiceData =[
 const Services = () => {
   return (
     <div>
-        <div className='container'>
+        <div className='container mt-14 md:mt-20'>
             <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 gap-y-8'>
                 {
                     ServiceData.map((data)=>(
                         <div >
+                            
                             {data.icon}
                             <div className='flex flex-col items-start truncate sm:flex-row gap-4 '>
                                 <h1 className='lg:text-xl font-bold'>{data.title}</h1>
