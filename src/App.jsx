@@ -10,6 +10,7 @@ import Product from './component/Product/Product'
 import SmartWatch from '../../frontend/src/assets/category/smartwatch2-removebg-preview.png'
 import Blogs from '../../frontend/src/component/Blogs/Blogs'
 import Partners from '../../frontend/src/component/Partners/Partners'
+import Footer from '../../frontend/src/component/Footer/Footer'
 
 
 const BannerData ={
@@ -47,6 +48,7 @@ const App = () => {
       <Banner data={BannerData2}/>
       <Blogs/>
       <Partners/>
+      <Footer/>
 
 
     </div>
