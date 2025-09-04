@@ -11,7 +11,7 @@ const Category2 = () => {
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8'>
 
             {/* first column  */}
-                <div className='py-10 pl-5 col-span-2 bg-gradient-to-br from-gray-400/90 to-gray-100 text-black rounded-3xl relative h-[400px] flex items-end'>
+                <div className='py-10 pl-5 sm:col-span-2 bg-gradient-to-br from-gray-400/90 to-gray-100 text-black rounded-3xl relative h-[400px] flex items-end'>
                     <div className='mb-4'>
                         <p className='mb-[2px] text-white-400'>Enjoy</p>
                         <p className='text-2xl font-semibold mb-[2px]' >With</p>
@@ -23,7 +23,7 @@ const Category2 = () => {
 
                 {/* second column  */}
 
-                    <div className='py-10 pl-5 col-span-1 bg-gradient-to-br from-green-900 to-green-500 text-white rounded-3xl relative h-[400px] flex items-start'>
+                    <div className='py-10 pl-5 col-span-1  bg-gradient-to-br from-green-900 to-green-500 text-white rounded-3xl relative h-[400px] flex items-start'>
                         <div className='mb-4 '>
                             <p className='mb-[2px] text-white-400'>Enjoy</p>
                             <p className='text-2xl font-semibold mb-[2px]'>With</p>
@@ -35,7 +35,7 @@ const Category2 = () => {
 
                     {/* Third colun */}
 
-                    <div className='py-10 pl-5 col-span-1 bg-gradient-to-br from-brandBlue/90 to-brandBlue/90 text-white rounded-3xl relative h-[400px] flex items-start'>
+                    <div className='py-10 pl-5 sm:col-span-1 bg-gradient-to-br from-brandBlue/90 to-brandBlue/90 text-white rounded-3xl relative h-[400px] flex items-start'>
                         <div>
                             <div className='mb-10  '>
                                 <p className='mb-[2px] text-white-400'>Enjoy</p>
